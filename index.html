@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/8402680fd6.js" crossorigin="anonymous"></script>
+    <title>Assignment</title>
+</head>
+<style>
+    
+    .page{
+
+display: flex;
+background:white ;
+    }
+    .fa-customize1{
+        margin-left: 43px ;
+        color: gray;
+    }
+    .name{
+        margin-top: 1px;
+        margin-left: 43px ;
+        color: gray;
+        font-size: 12px;
+    }
+    
+    .beside{
+        display: flexbox;
+        width: 120px;
+        height: 679px;
+        background: rgb(255, 255, 255);
+        box-sizing: border-box;
+    box-shadow: inset 0 0 6px rgba(0, 0,0, .3);
+    }
+    .beside img{
+        margin-top: 1px;
+        padding: 20px;
+        width: 80px;
+        height: 64px;
+    }
+
+    .box{
+        margin-top: 94px;
+    padding: 20px;
+    width: 1165px;
+    height: 544px;
+    background: rgb(236, 236, 238);
+    }
+    .box span{
+        margin-left: 2px;
+        font-weight: bold;
+        color: gray;
+    }
+    .box p{
+        
+        color: black;
+        font-weight: bold;
+        text-align: center;
+    }
+    .hover:hover{
+        background-color: rgb(101, 192, 223);
+        border-left:4px solid rgb(33, 74, 163);
+    }
+    .box1 input{
+        margin-top: 100px;
+        margin-left: 137px;
+        width: 809px;
+        height: 40px;
+        background: white;
+        border: white;
+        border-radius: 8px;
+        font-weight: bold;
+    }
+    .box2 input{
+        margin-left: 137px;
+        width: 138px;
+        height: 154px; 
+        background: white;
+        border: white;
+        text-align: center;
+        font-weight: bold;
+       
+        
+    }
+    .box2 ::placeholder{
+        color: black;  
+        
+    }
+    .fa-customize{
+        margin-left: 25px ;
+        color: gray;
+    }
+    
+</style>
+<body>
+    <div class="page">
+        <div class="beside">
+            <img src="symbol1.png" alt="">
+            
+
+            <i class="far fa-user fa-center fa-2x fa-customize1"></i>
+            <p class="name">Students</p>
+
+            <div class="hover">
+            <i class="fa fa-file-alt fa-2x fa-customize1"></i>
+            <p class="name">Lesson Plan</p>
+        </div>
+            <i class="fa fa-cog fa-2x fa-customize1" aria-hidden="true" ></i>
+            <p class="name">Setting</p>
+        </div>
+        <div class="box"> 
+            <i class="fa fa-caret-left fa-1x fa-customize" aria-hidden="true"></i>
+             <span>Videos</span>
+            <div class="box1">
+                <input type="text" placeholder="Insert URL here">
+            </div>
+            <br>
+            
+            <p>or</p> 
+           
+            <br>
+            <div class="box2">
+                <input type="text" placeholder="Upload">
+            </div>
+           
+        </div>
+    </div>
+</body>
+</html>
